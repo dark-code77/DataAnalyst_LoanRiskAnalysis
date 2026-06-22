@@ -77,14 +77,7 @@ df.to_csv(
     index=False
 )
 
-df.to_sql(
-    "loan_risk_data",
-    engine,
-    if_exists="replace",
-    index=False
-)
 
-print("✅ Data Loaded Successfully")
 
 print(df.head())
 
