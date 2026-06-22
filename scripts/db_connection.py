@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 
-username = "postgres"
-password = "Abhi123"
+username = "your username"
+password = "your password"
 host = "localhost"
 port = "5432"
 database = "loan_analysis"

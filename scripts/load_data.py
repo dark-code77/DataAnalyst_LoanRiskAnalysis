@@ -3,8 +3,8 @@ from sqlalchemy import create_engine
 
 # PostgreSQL Credentials
 
-username = "postgres"
-password = "Abhi123"
+username = "your_username"
+password = "your_password"
 host = "localhost"
 port = "5432"
 database = "loan_analysis"
